@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Section Container */
+.how-it-works {
+  background-color: #f0f4f8; /* Match Banner background */
+  padding: 50px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.how-it-works__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Column */
+.how-it-works__left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.how-it-works__mockup {
+  width: 125%;
+  max-width: 1000px; /* Set max-width for larger image */
+  height: auto;
+  object-fit: contain;
+  margin-right: 0;
+  margin-left: -100px; 
+  position: relative;
+  left: -50px;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Right Column */
+.how-it-works__right {
+  flex: 1;
+  text-align: left;
+}
+
+.how-it-works__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50; /* Match Banner title color */
+  margin-bottom: 20px;
+}
+
+.how-it-works__steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.how-it-works__steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.how-it-works__steps li h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #34495e; /* Match Banner subtitle color */
+  margin-bottom: 5px;
+}
+
+.how-it-works__steps li p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Call-to-Action Button */
+.how-it-works__cta {
+  background-color: #2c3e50; /* Match Banner button color */
+  color: #f7f7f2;
+  border: none;
+  padding: 12px 24px; /* Increase padding for larger button */
+  font-size: 18px; /* Increase font size */
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.how-it-works__cta:hover {
+  background-color: #34495e; /* Slightly darker for hover */
+  transform: scale(1.05);
+}

@@ -6,8 +6,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        {/* No import needed when using images in /public */}
-        <img src="/logo.png" alt="Logo" />
+        <span className="logo-text">NFC AGADIR</span>
       </div>
       <nav className="nav-links">
         <ul>
