@@ -3,6 +3,7 @@ import Banner from './component/Banner/Banner';
 import Header from './component/header/Header';
 import HowItWorks from './component/howitworks/HowItWorks';
 import NFCCardPriceCalculator from './component/Pricing/NFCCardPriceCalculator';
+import Footer from './component/footer/Footer';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Banner/>
       <HowItWorks/>
       <NFCCardPriceCalculator/>
+      <Footer/>
     </div>
   );
 }
