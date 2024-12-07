@@ -41,7 +41,8 @@ function Cards() {
       <div className="our">
         {data?.map(card=>(
             <div className="info">
-          <img src={card.image} alt="Our Mission" />
+                <div className="img"><img src={card.image} alt="Our Mission" /></div>
+          
           <span className="title"> {card.title}</span>
           <p>{card.description}</p>
           <span className="prix">{card.prix} MAD</span>
