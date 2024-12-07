@@ -1,0 +1,70 @@
+@import url("../../index.css");
+.about-us{
+    background-color: var(--whitebg);
+    width: 1004px;
+    height: 580px;
+    font-family: var(--mainFent);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-self: center;
+
+    
+}
+.AboutUs_head{
+    width: 612px;
+    height: 161px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    
+}
+.AboutUs_head h1{
+align-self: center;
+width: 439px;
+height: auto;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #252300;
+
+}
+.AboutUs_head p{
+width: 612px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+
+.about-us .our {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.about-us .our .info {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 390px;
+}
+.about-us .our .info img{
+width: 209px;
+height: 204px;
+}
+.about-us .our .info p{
+width: 226px;
+height: 80px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+}
+
+
