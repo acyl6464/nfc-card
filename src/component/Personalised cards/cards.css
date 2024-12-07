@@ -1,5 +1,6 @@
 @import url("../../index.css");
 .Cards{
+    margin-top: 300px;
     background-color: var(--whitebg);
     width: 910px;
     height: 1080px;
