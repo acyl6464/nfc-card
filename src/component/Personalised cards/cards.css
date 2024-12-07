@@ -1,0 +1,92 @@
+@import url("../../index.css");
+.Cards-us{
+    background-color: var(--whitebg);
+    width: 1004px;
+    height: 580px;
+    font-family: var(--mainFent);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-self: center;
+
+    
+}
+.Cards_head{
+    width: 612px;
+    height: 161px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    
+}
+.Cards_head h1{
+align-self: center;
+width: 439px;
+height: auto;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #252300;
+
+}
+.Cards_head p{
+width: 612px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+
+.Cards .our {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.Cards .our .info {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 390px;
+}
+.Cards .our .info img{
+width: 174px;
+height: 266px;
+}
+.Cards .our .info p{
+width: 190px;
+height: 64px;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: rgba(37, 35, 0, 0.7);
+}
+.Cards .our .info .prix {
+
+width: 79px;
+height: 20px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #C4D326;
+
+
+}
+.Cards .our .info .title{
+width: 159px;
+height: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #252300;
+}
+
+
+
