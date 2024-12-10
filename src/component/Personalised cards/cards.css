@@ -1,6 +1,6 @@
 @import url("../../index.css");
 .Cards{
-    margin-top: 300px;
+    margin-top: 200px;
     background-color: var(--whitebg);
     width: 910px;
     height: 1080px;
@@ -73,7 +73,7 @@ color: rgba(37, 35, 0, 0.7);
 }
 .Cards .our .info .prix {
 
-width: 79px;
+width: 100px;
 height: 20px;
 font-style: normal;
 font-weight: 600;

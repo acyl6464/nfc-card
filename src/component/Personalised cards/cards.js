@@ -9,22 +9,22 @@ function Cards() {
                 title: "Standard NFC Card",
                 description:
                     "Simple and functional, this card is perfect for everyday use",
-                image: "image/home page/card3.png",
-                prix: "9.99",
+                image: "image/home page/card3standardensvg.svg",
+                prix: "99.99",
             },
             {
                 title: "Eco-Friendly NFC Card",
                 description:
                     "Sustainable and unique, this eco-friendly card is made from recycled or natural materials.",
-                image: "image/home page/card1.png",
-                prix: "19.99",
+                image: "image/home page/card2ecofriendlyensvg.svg",
+                prix: "199.99",
             },
             {
                 title: "Premium NFC Card",
                 description:
                     "Elegant and professional, this card is crafted with premium materials to leave a lasting impression",
-                image: "image/home page/card1.png",
-                prix: "24.99",
+                image: "image/home page/card1premiumensvg.svg",
+                prix: "249.99",
             },
         ];
         setData(arr);

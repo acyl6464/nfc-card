@@ -9,15 +9,15 @@ function AboutUs() {
         </div>
         <div className='our'>
             <div className='info'>
-                <img src="image/home page/our-mission.png" alt="Our Mission" />
+                <img src="image/home page/ourmissionensvg.svg" alt="Our Mission" />
                 <p>Simplify the way people share their information through smart, reliable, and innovative NFC solutions.</p>
             </div>
             <div  className='info' >
-                <img src="image/home page/our-values.png" alt="our values" />
+                <img src="image/home page/ourvaluesensvg.svg" alt="our values" />
                 <p>To become the global leader in personalized NFC cards for professionals and businesses.</p>
             </div>
             <div className='info'>
-                <img src="image/home page/our-vision.png" alt="our vision" />
+                <img src="image/home page/ourvisionensvg.svg" alt="our vision" />
                 <p>Always staying ahead with cutting-edge technology, ensuring that our solutions are easy for everyone to use .</p>
             </div>
         </div>
