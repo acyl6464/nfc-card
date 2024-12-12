@@ -1,6 +1,5 @@
 @import url("../../index.css");
 .about-us{
-    background-color: var(--whitebg);
     width: 1004px;
     height: 580px;
     font-family: var(--mainFent);

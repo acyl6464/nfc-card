@@ -1,0 +1,85 @@
+@import url("../../index.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 22%;
+}
+
+section h2 {
+    font-size: 52px;
+    font-family: "Montserrat", sans-serif; 
+    color: var(--blackbg);
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.description p {
+    font-family: "Montserrat", sans-serif; 
+    color: var(--blackbg);
+}
+
+.big-title {
+    width: 100%;
+}
+
+.call-to-action .getstarted {
+    padding: 12px 54px;
+    border: none;
+    color: var(--whitebg);
+    background-color: var(--LaBase);
+}
+.call-to-action .getstarted a{
+    font-family: "Montserrat", sans-serif; 
+    color: var(--whitebg);
+    text-decoration: none;
+}
+
+.description .learn-more button {
+    padding: 11px;
+    border: none;
+    background: none;
+}
+.description .learn-more button a {
+    font-family: "Montserrat", sans-serif; 
+    color: var(--blackbg);
+    text-decoration: none;
+}
+
+.learn-more img {
+    margin-left: 10px;
+}
+
+.topo {
+    position: absolute;
+    top: -90%;
+    z-index: -1;
+}

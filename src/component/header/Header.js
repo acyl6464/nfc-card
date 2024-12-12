@@ -2,11 +2,13 @@
 import React from 'react';
 import './Header.css';
 
+
 const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <span className="logo-text">NFC AGADIR</span>
+            <span><img src="image/home page/nfcagadir-logo.svg" alt="Our Mission" /></span>
+            <span className="logo-text">NFC AGADIR</span>
       </div>
       <nav className="nav-links">
         <ul>
@@ -15,7 +17,7 @@ const Header = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <button className="login-btn">Login</button>
+      <button className="login-btn">Log In</button>
     </header>
   );
 }

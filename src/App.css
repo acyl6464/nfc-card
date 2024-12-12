@@ -1,4 +1,4 @@
 @import url("./index.css");
-.App{
-    background-color: var(--whitebg);
+body{
+    background: linear-gradient(180deg, rgba(196, 211, 38, 50%) 0%, #FFFFFF 40%);
 }
