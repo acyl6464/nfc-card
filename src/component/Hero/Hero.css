@@ -1,24 +1,24 @@
 @import url("../../index.css");
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10% 22%;
+    margin: 10% 15%;
 }
 
 section h2 {
-    font-size: 52px;
-    font-family: "Montserrat", sans-serif; 
+    font-size: 3.25rem; /* Use rem for scalable font sizes */
+    font-family: "Montserrat", sans-serif;
     color: var(--blackbg);
     font-weight: bold;
+    text-align: center;
 }
 
 .call-to-action {
@@ -35,20 +35,23 @@ section h2 {
 
 .description {
     display: flex;
+    flex-direction: column; /* Stack description items on smaller screens */
     align-items: center;
     width: 100%;
-    justify-content: flex-start;
-    gap: 50px;
+    justify-content: center;
+    gap: 20px;
     margin-top: 30px;
 }
 
 .description p {
-    font-family: "Montserrat", sans-serif; 
+    font-family: "Montserrat", sans-serif;
     color: var(--blackbg);
+    text-align: center;
 }
 
 .big-title {
     width: 100%;
+    text-align: center; /* Center align the big title */
 }
 
 .call-to-action .getstarted {
@@ -56,9 +59,10 @@ section h2 {
     border: none;
     color: var(--whitebg);
     background-color: var(--LaBase);
+    font-family: "Montserrat", sans-serif;
 }
-.call-to-action .getstarted a{
-    font-family: "Montserrat", sans-serif; 
+
+.call-to-action .getstarted a {
     color: var(--whitebg);
     text-decoration: none;
 }
@@ -68,8 +72,9 @@ section h2 {
     border: none;
     background: none;
 }
+
 .description .learn-more button a {
-    font-family: "Montserrat", sans-serif; 
+    font-family: "Montserrat", sans-serif;
     color: var(--blackbg);
     text-decoration: none;
 }
@@ -82,4 +87,57 @@ section h2 {
     position: absolute;
     top: -90%;
     z-index: -1;
+    width: 100%; /* Make topo image responsive */
+    object-fit: cover;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    section {
+        margin: 10% 5%;
+    }
+
+    section h2 {
+        font-size: 2.5rem; /* Reduce font size on smaller screens */
+    }
+
+    .description {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .call-to-action .getstarted {
+        padding: 12px 30px;
+    }
+
+    .learn-more {
+        flex-direction: column;
+    }
+
+    .learn-more img {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        margin: 8% 3%;
+    }
+
+    section h2 {
+        font-size: 2rem; /* Further reduce font size on very small screens */
+    }
+
+    .description p {
+        font-size: 0.875rem; /* Smaller text for better readability */
+    }
+
+    .call-to-action .getstarted {
+        padding: 10px 25px;
+    }
+
+    .learn-more button {
+        padding: 10px;
+    }
 }
