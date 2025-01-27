@@ -1,4 +1,4 @@
-@import url("./index.css");
+@import url("./index.js");
 body{
     background: linear-gradient(180deg, rgba(196, 211, 38, 50%) 0%, #FFFFFF 40%);
 }

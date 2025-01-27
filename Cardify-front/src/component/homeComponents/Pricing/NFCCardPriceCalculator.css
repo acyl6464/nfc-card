@@ -1,0 +1,144 @@
+.price-calculator {
+  padding: 80px 20px;
+  background-color: #f0f4f8;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.calculator-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.price-calculator h2 {
+  color: #2c3e50;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.quantity-selector {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quantity-selector label {
+  font-size: 25px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.quantity-selector input {
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid #2c3e50;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.customization-options {
+  margin: 30px 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.option input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.option label {
+  font-size: 18px;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.price-display {
+  margin: 40px 0;
+}
+
+.price-breakdown {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.breakdown-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.price-display h3 {
+  color: #2c3e50;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 45px;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.buy-now-btn {
+  background-color: #2c3e50;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 20px 0;
+}
+
+.buy-now-btn:hover {
+  background-color: #34495e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.discount-notes {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(44, 62, 80, 0.1);
+}
+
+.discount-notes p {
+  color: #2c3e50;
+  font-size: 14px;
+  margin: 5px 0;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+.discount-notes p:first-child {
+  color: #27ae60;
+}
+
+.discount-notes p:last-child {
+  color: #3498db;
+}

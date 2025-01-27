@@ -1,17 +1,19 @@
-import './App.css';
-// import Banner from './component/Banner/Banner';
-// import Header from './component/header/Header';
-// import HowItWorks from './component/howitworks/HowItWorks';
-// import NFCCardPriceCalculator from './component/Pricing/NFCCardPriceCalculator';
-// import Footer from './component/footer/Footer';
-import Home from './pages/homePage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import './App.css';
+import Home from './pages/homePage/indexHome';
+import IndexDashboard from './pages/dashboardPage/indexDashboard';
 
 
 function App() {
   return (
-    <div className="App">
-     <Home/>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/home' element={<Home />} />
+          <Route path='/dashboard' element={<IndexDashboard />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

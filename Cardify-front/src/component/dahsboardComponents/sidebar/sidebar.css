@@ -1,0 +1,98 @@
+body{
+    background-color: #F5F4FF;
+}
+
+.sidebar {
+    background-color: #494454;
+    color: #F5F4FF;
+    width: 18%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 0.3s ease;
+    padding: 1.5%;
+}
+
+.sidebar.collapsed {
+    width: 8%;
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-icon p{
+    font-family: "Outfit";
+    font-size: 19.26;
+    font-weight: 500;
+}
+
+.logo-icon p.collapsed-logo {
+    display: none; 
+}
+
+ul.nav-items-top {
+    margin-bottom: 150px;
+    list-style-type: none;
+}
+
+ul.nav-items-top li {
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    overflow: hidden; 
+    font-size: 16;
+    font-family: "Outfit";
+    font-weight: 300;
+}
+
+ul.nav-items-top li p {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0); 
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease; 
+}
+
+
+ul.nav-items-top li.collapsed-item p {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%); 
+}
+
+ul.nav-items-bottom {
+    list-style-type: none;
+}
+
+ul.nav-items-bottom li {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Outfit";
+    font-weight: 300;
+}
+
+ul.nav-items-bottom li p {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0); 
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease; 
+}
+
+
+ul.nav-items-bottom li.collapsed-item p {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%); 
+}
