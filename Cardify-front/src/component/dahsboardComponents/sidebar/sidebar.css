@@ -5,17 +5,23 @@ body{
 .sidebar {
     background-color: #494454;
     color: #F5F4FF;
-    width: 18%;
+    width: 18vw;
+    min-width: 200px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: width 0.3s ease;
     padding: 1.5%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 
 .sidebar.collapsed {
-    width: 8%;
+    width: 8vw;
+    min-width: 80px;
 }
 
 .logo-icon {

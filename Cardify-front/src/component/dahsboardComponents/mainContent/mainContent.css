@@ -1,0 +1,114 @@
+/* MAIN CONTENT */
+.main-content {
+    height: 100vh;
+    width: calc(100vw - 18vw); /* Use viewport width for total width */
+    background: #F5F4FF;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: fixed; /* Change to fixed to match sidebar */
+    left: 18vw;
+    top: 0;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.main-content.sidebar-collapsed {
+    width: calc(100vw - 8vw);
+    left: 8vw;
+}
+
+  /* HEADER SEARCH BAR */
+  .header-search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+    width: 100%; /* Change to 100% to fill container */
+    box-sizing: border-box; /* Include padding in width calculation */
+    min-width: 180px;
+    height: 95px;
+    background: #E3E1F5;
+    border-radius: 12px;
+    position: relative; /* Change to relative */
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease;
+  }
+  
+  /* SEARCH BAR */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    width: min(438px, 50%); /* Make width responsive */
+    min-width: 150px; /* Add minimum width */
+    height: 45px;
+    background: rgba(73, 68, 84, 0.12);
+    border-radius: 6px;
+  }
+  
+  /* SEARCH ICON */
+  .search-icon {
+    width: 24px;
+    height: 24px;
+    color: #888;
+  }
+  
+  /* SEARCH INPUT */
+  .search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    color: #333;
+  }
+  
+  .search-input::placeholder {
+    color: #AAA;
+    text-align: left;
+  }
+  
+  /* PROFILE SECTION */
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 397px;
+    height: 45px;
+    gap: 20px;
+  }
+  
+  /* NOTIFICATIONS */
+  .notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 45px;
+    background: rgba(73, 68, 84, 0.12);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* PROFILE AVATAR */
+  .profile-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: rgba(73, 68, 84, 0.12);
+    border-radius: 8px;
+  }
+  
+  .profile-avatar img {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    object-fit: cover;
+  }

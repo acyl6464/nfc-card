@@ -10,16 +10,10 @@ import settingsvector from '../../../assets/images/settingsvector.svg'
 import squarevector from '../../../assets/images/square.svg'
 import './sidebar.css'
 
-export default function Sidebar(){
-    const [isCollapsed, setIsCollapsed] = useState(false);
-
-    const toggleNavbar = () => {
-        setIsCollapsed(!isCollapsed);
-    };
-
+export default function Sidebar({ isCollapsed, onToggle }){
     return(
         <div className={`sidebar ${isCollapsed ? "collapsed" : ""}`}>
-            <div className="logo" onClick={toggleNavbar}>
+            <div className="logo" onClick={onToggle}>
                 <div className="logo-icon">
                     <img src={cardifylogo} alt="cardify-logo" />
                     <p className={isCollapsed ? "collapsed-logo" : ""}>CARDIFY</p>
