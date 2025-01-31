@@ -2,7 +2,7 @@
     --bg: #F5F4FF;
     --pri: #8470FF;
     --blk: #000000;
-    --txt1: #333;
+    --txt1: #494454;
 }
 
 @font-face {
@@ -28,7 +28,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: FiraSans-Regular;
     font-optical-sizing: auto;
 }
 

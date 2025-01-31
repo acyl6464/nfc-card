@@ -2,7 +2,7 @@
 .main-content {
     height: 100vh;
     width: calc(100vw - 18vw); /* Use viewport width for total width */
-    background: #F5F4FF;
+    background: var(--bg);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -30,10 +30,6 @@
     min-width: 180px;
     height: 95px;
     background: #E3E1F5;
-    border-radius: 12px;
-    position: relative; /* Change to relative */
-    top: 0;
-    left: 0;
     transition: width 0.3s ease;
   }
   
@@ -65,11 +61,11 @@
     flex: 1;
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
-    color: #333;
+    color: var(--bg);
   }
   
   .search-input::placeholder {
-    color: #AAA;
+    color: var(--bg);
     text-align: left;
   }
   
